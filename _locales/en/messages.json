@@ -1,0 +1,22 @@
+{
+	"extName": {
+		"message": "Check estonian car on mnt.ee",
+		"description": "The extension name."
+	},
+	"extDescription": {
+		"message": "Simple extension that makes it easier to check estonian car on mnt.ee",
+		"description": "The extension description."
+	},
+	"checkByRegAndVinNumbers": {
+		"message": "Check car by Reg.number and VIN",
+		"description": "Link shown when REG and VIN numbers are available"
+	},
+	"checkByRegNumberOnly": {
+		"message": "Check by Reg.number",
+		"description": "Link shown when real REG number is available"
+	},
+	"checkByVinNumberOnly": {
+		"message": "Check by VIN",
+		"description": "Link shown when real VIN number is available"
+	}
+}
