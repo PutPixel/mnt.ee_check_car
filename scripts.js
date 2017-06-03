@@ -43,7 +43,7 @@ function findNumberAndAddLinkToCheck(baseTagElement, tagType, localizeMsg, linkB
 	var autoNumber = null;
 	var numberTr = $(baseTagElement);
 	if (numberTr.exists()) {
-		if (numberTr.find(".preview").exists()) {
+		if (numberTr.find(".preview").exists() || numberTr.find(".service-trigger").exists()) {
 			console.trace("Preview of " + tagType + " number loaded, nothing to do here");
 		} else {
 			var numberValueSpan = numberTr.find(".value");
